@@ -26,13 +26,13 @@ declare class Grakn {
 // }
 declare namespace grakn {
 	const dataType: {
-		BOOLEAN: 0;
-		DATE: 1;
-		DOUBLE: 2;
-		FLOAT: 3;
-		INTEGER: 4;
-		LONG: 5;
-		STRING: 6;
+		BOOLEAN: 1;
+		DATE: 6;
+		DOUBLE: 5;
+		FLOAT: 4;
+		INTEGER: 2;
+		LONG: 3;
+		STRING: 0;
 	};
 
 	const prototype: {};
