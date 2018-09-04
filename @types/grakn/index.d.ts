@@ -38,10 +38,9 @@
 /*~ This declaration specifies that the class constructor function
  *~ is the exported object from the file
  */
-export = Grakn;
 
 /*~ Write your module's methods and properties in this class */
-declare class Grakn {
+export declare class Grakn {
 	constructor(uri: string, credentials: any);
 
 	session: any;
