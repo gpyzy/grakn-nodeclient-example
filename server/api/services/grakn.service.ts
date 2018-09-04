@@ -1,7 +1,7 @@
-import * as Grakn from 'grakn';
+import { Grakn } from 'grakn';
 
 // var Grakn = require('grakn');
-const grakn = new Grakn.Grakn('localhost:48555', null);
+const grakn = new Grakn('localhost:48555', null);
 
 const session = grakn.session('growthclick');
 

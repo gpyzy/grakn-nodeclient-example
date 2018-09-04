@@ -1,6 +1,6 @@
-# grakn-nodeclient
+# grakn-nodeclient-example
 
-grakn-nodeclient
+grakn-nodeclient-example
 
 ## Install It
 ```
@@ -31,7 +31,7 @@ npm run debug
 e.g. CloudFoundry
 
 ```
-cf push grakn-nodeclient
+cf push grakn-nodeclient-example
 ```
 
 ### Try It

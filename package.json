@@ -1,7 +1,7 @@
 {
-  "name": "grakn-nodeclient",
+  "name": "grakn-nodeclient-example",
   "version": "1.0.0",
-  "description": "grakn-nodeclient",
+  "description": "grakn-nodeclient-example",
   "main": "index.js",
   "scripts": {
     "start": "cd build && node main",

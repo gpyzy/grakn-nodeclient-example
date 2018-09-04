@@ -1,8 +1,8 @@
 swagger: "2.0"
 info:
   version: 1.0.0
-  title: grakn-nodeclient
-  description: grakn-nodeclient
+  title: grakn-nodeclient-example
+  description: grakn-nodeclient-example
 basePath: /api/v1
 tags:
   - name: Examples
@@ -28,14 +28,6 @@ definitions:
         example: no_stress
 
 paths:
-  /grakn:
-    get:
-      tags:
-        - grakn examples
-      description: test
-      responses:
-        200:
-          description: 200
   /examples:
     get:
       tags:
