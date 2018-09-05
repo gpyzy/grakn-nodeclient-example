@@ -3,10 +3,10 @@ import { Request, Response } from 'express';
 
 export class Controller {
 	async hello(req: Request, res: Response): Promise<void> {
-		let employee= await GraknService.hello();
-		let id, baseType = {employee.id,employee.baseType};
+		let employee = await GraknService.hello();
+		let [ id, baseType ] = [ employee.id, employee.baseType ];
 		res.json({
-			person: {employee.id};
+			person: { id, baseType }
 		});
 	}
 }
