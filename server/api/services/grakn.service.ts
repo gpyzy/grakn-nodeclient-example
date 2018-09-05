@@ -1,4 +1,4 @@
-import { Grakn } from 'grakn';
+var Grakn = require('grakn');
 
 // var Grakn = require('grakn');
 const grakn = new Grakn('localhost:48555', null);
@@ -13,6 +13,7 @@ export class GraknService {
 		const answer = await resultIterator.next(); // Take first ConceptMap Answer
 		const person = answer.map().get('employee'); // Access map in Answer with answer.map() and take Concept associated to variable x from 'match $x isa person; get;'
 		tx.close();
+		console.log(person);
 		return person;
 	}
 }

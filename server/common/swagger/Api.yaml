@@ -28,6 +28,14 @@ definitions:
         example: no_stress
 
 paths:
+  /grakn:
+    get:
+      tags:
+        - Grakn
+      description: Graken example
+      responses:
+        200:
+          description: http status 200
   /examples:
     get:
       tags:
